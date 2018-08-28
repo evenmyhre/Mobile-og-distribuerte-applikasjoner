@@ -57,3 +57,16 @@ and open the template in the editor.
     float: left;
     color: #999;
 }
+
+body {
+    background-color: lightsteelblue;
+}
+
+h1  {
+    color: teal;
+    text-align: center;
+}
+
+.registerforms {
+    margin-left: 7in;
+}
