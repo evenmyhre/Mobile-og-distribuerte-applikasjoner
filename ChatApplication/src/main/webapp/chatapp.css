@@ -70,3 +70,28 @@ h1  {
 .registerforms {
     margin-left: 7in;
 }
+
+.registereduser {
+    padding: 16px;
+    color: white;
+}
+
+.chatwindow {
+    align-content: center;
+    padding: 16px;
+    height: 225px;
+    width: 925px;
+}
+
+.chatlist {
+
+}
+
+.instantmessage {
+    align-content: center;
+    padding: 16px;
+}
+
+.chatcontainer {
+    display: flex;
+}

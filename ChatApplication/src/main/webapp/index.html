@@ -8,22 +8,34 @@
     <body>
         <h1>Register user:</h1>
         <div class="registerforms">
-        <form>
-            First name:
-            <br>
-            <input type="text" name="firstname">
-            <br>
-            <br>
-            Last name:
-            <br>
-            <input type="text" name="lastname">
-            <br>
-            <br>
-        </form>
+            <form>
+                First name:
+                <br>
+                <input type="text" name="firstname" id="firstname">
+                <br>
+                <br>
+                Last name:
+                <br>
+                <input type="text" name="lastname" id="lastname">
+                <br>
+                <br>
+            </form>
 
-        <button type="button">Register</button>
+            <button id="myBtn" type="button" onclick="createUser()">Register</button>
+            <br>
+            <br>
+            <div id="demo" class="registereduser"></div>
+
+            <script>
+                function createUser() {
+                    var first = document.getElementById("firstname").value;
+                    var second = document.getElementById("lastname").value;
+                    document.getElementById("demo").innerHTML = first + " " + second;
+                }
+            </script>
+
         </div>
 
-        
+
     </body>
 </html>
