@@ -27,15 +27,9 @@
             <a>Or</a>
             <br>
             <br>
-            <div id="fullname" class="registereduser">Anonymous</div>
+            <div id="fullname" class="registereduser" onclick="goToChat()">Anonymous</div>
 
-            <script>
-                function createUser() {
-                    var first = document.getElementById("firstname").value;
-                    var second = document.getElementById("lastname").value;
-                    document.getElementById("fullname").innerHTML = first + " " + second;
-                }
-            </script>
+            <script type="text/javascript" src="chatapp.js"></script>
 
         </div>
 
