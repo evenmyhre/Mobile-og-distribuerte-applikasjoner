@@ -4,28 +4,26 @@ body {
     background-color: lightsteelblue;
 }
 
-h1  {
-    color: teal;
-    align-content: center;
+.headline  {
+    border: 2px solid black;
+    color: teal;    
     position: fixed;
     left: 50%;
+    top: 1%;
 }
 
 .registerforms {
     align-content: center;
     position: fixed;
-    top: 7%;
+    top: 20%;
     left: 50%;
 }
 
 .registereduser {
     padding: 16px;
-
-
 }
 
 .chatwindow {
-
     padding: 1px;
     top: 10%;
     left: 25%;
@@ -33,15 +31,9 @@ h1  {
     width: 900px;
     height: 500px;
     float: bottom;
-
     overflow: auto;
     font: 24px/36px sans-serif;
-
 }
-
-
-
-
 
 .chatcontainer {
     position: fixed;
@@ -59,16 +51,18 @@ h1  {
     display: inline-block;
 }
 
-.sendmsg {
+.sendmsg {   
     position: fixed;
     left: 50%;
     bottom: 1%;
-
-
 }
 li{
-    
+
     display:flex;
     padding:3px;
     margin:3px 0;
+}
+
+#textinput {
+    size: 10%;
 }

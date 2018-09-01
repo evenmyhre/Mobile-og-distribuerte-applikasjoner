@@ -14,22 +14,22 @@ and open the template in the editor.
     </head>
     <body>
 
-        <h1>Chat Messages</h1>
+        <h1 class="headline">Chat Messages</h1>
 
         <div class="chatcontainer">
             <div class="chatwindow" id="chatwindow">
                 <Ul class="conversation" id="messages">
-                    
-                    
-                    
+
+
+
                 </Ul>
             </div>
-            
+
         </div>
         <form class="sendmsg">
-                <input id="textinput" type="text">
-                <button id="myBtn" type="button" onclick="addAnother()">SEND</button>
-            </form>
+            <input id="textinput" type="text" placeholder="Type your message" onsubmit="addAnother()">
+            <button id="myBtn" type="button" onclick="addAnother()">SEND</button>
+        </form>
         <script type="text/javascript" src="chatapp.js"></script>
     </body>
 </html>
