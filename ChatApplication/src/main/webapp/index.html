@@ -24,13 +24,16 @@
             <button id="myBtn" type="button" onclick="createUser()">Register</button>
             <br>
             <br>
-            <div id="demo" class="registereduser"></div>
+            <a>Or</a>
+            <br>
+            <br>
+            <div id="fullname" class="registereduser">Anonymous</div>
 
             <script>
                 function createUser() {
                     var first = document.getElementById("firstname").value;
                     var second = document.getElementById("lastname").value;
-                    document.getElementById("demo").innerHTML = first + " " + second;
+                    document.getElementById("fullname").innerHTML = first + " " + second;
                 }
             </script>
 

@@ -9,10 +9,18 @@ function displayDate() {
 }
 
 addAnother = function() {
-    var ul = document.getElementById("chatlist");
-    var li = document.createElement("li");
-    var children = ul.children.length +1;
-    li.setAttribute("id", "element"+children);
-    li.appendChild(document.createTextNode("Element "+children));
+    
+    var x = document.getElementById("textinput");
+    var text = "";
+    var i;
+    for (i = 0; i < x.length ;i++) {
+        text += x.elements[i].value + "<br>";
+    }
+    console.log(document.getElementById('textinput').value);
+    var input = document.getElementById('textinput').value;
+    var ul = document.getElementById("messages");
+    var li = document.createElement("li"); 
+    li.style.textAlign="center";
+    li.appendChild(document.createTextNode(input));
     ul.appendChild(li);
 };

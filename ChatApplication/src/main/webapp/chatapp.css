@@ -1,62 +1,4 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 28.aug.2018, 15:38:13
-    Author     : Even
-*/
 
-/* Chat containers */
-.container {
-    border: 2px solid #dedede;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-/* Darker chat container */
-.darker {
-    border-color: #ccc;
-    background-color: #ddd;
-}
-
-/* Clear floats */
-.container::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Style images */
-.container img {
-    float: left;
-    max-width: 60px;
-    width: 100%;
-    margin-right: 20px;
-    border-radius: 50%;
-}
-
-/* Style the right image */
-.container img.right {
-    float: right;
-    margin-left: 20px;
-    margin-right:0;
-}
-
-/* Style time text */
-.time-right {
-    float: right;
-    color: #aaa;
-}
-
-/* Style time text */
-.time-left {
-    float: left;
-    color: #999;
-}
 
 body {
     background-color: lightsteelblue;
@@ -64,34 +6,69 @@ body {
 
 h1  {
     color: teal;
-    text-align: center;
+    align-content: center;
+    position: fixed;
+    left: 50%;
 }
 
 .registerforms {
-    margin-left: 7in;
+    align-content: center;
+    position: fixed;
+    top: 7%;
+    left: 50%;
 }
 
 .registereduser {
     padding: 16px;
-    color: white;
+
+
 }
 
 .chatwindow {
-    align-content: center;
-    padding: 16px;
-    height: 225px;
-    width: 925px;
+
+    padding: 1px;
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    width: 900px;
+    height: 500px;
+    float: bottom;
+
+    overflow: auto;
+    font: 24px/36px sans-serif;
+
 }
 
-.chatlist {
 
-}
 
-.instantmessage {
-    align-content: center;
-    padding: 16px;
-}
+
 
 .chatcontainer {
-    display: flex;
+    position: fixed;
+    top: 10%;
+    left: 33%;
+    border: 5px solid white;
+    background-color: wheat;
+
+}
+
+#fullname {
+    color: red;
+    border: 15px;
+    background: green;
+    display: inline-block;
+}
+
+.sendmsg {
+    position: fixed;
+    left: 50%;
+    bottom: 1%;
+
+
+}
+li{
+    
+    display:flex;
+    padding:3px;
+    margin:3px 0;
 }
