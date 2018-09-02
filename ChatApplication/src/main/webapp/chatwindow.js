@@ -29,7 +29,7 @@ function createUser() {
                     var first = document.getElementById("firstname").value;
                     var second = document.getElementById("lastname").value;
                     document.getElementById("fullname").innerHTML = first + " " + second;
-                    document.getElementById("fullname").onClick = "/currentConversation.html"
+                   
                 }
 function goToChat(){
     
