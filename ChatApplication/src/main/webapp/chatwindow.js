@@ -20,7 +20,7 @@ addAnother = function () {
     var input = document.getElementById('textinput').value;
     var ul = document.getElementById("messages");
     var li = document.createElement("li");
-    li.style.textAlign = "center";
+    
     li.appendChild(document.createTextNode(input));
     ul.appendChild(li);
 };

@@ -51,7 +51,7 @@ body {
     display: inline-block;
 }
 
-.sendmsg {   
+.send_message {   
     position: fixed;
     left: 50%;
     bottom: 1%;
